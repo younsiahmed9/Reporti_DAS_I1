@@ -1,0 +1,36 @@
+# ===== Backend (Spring Boot, Maven/Gradle) =====
+target/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+*.jar
+*.war
+*.log
+HELP.md
+
+# ===== Frontend (Angular) =====
+node_modules/
+dist/
+.angular/
+.sass-cache/
+npm-debug.log
+yarn-error.log
+
+# ===== Secrets and environment =====
+.env
+*.env
+application-local.properties
+application-local.yml
+
+# ===== IDEs and OS =====
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+
+# ===== Docker data =====
+*.db
